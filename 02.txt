@@ -1,0 +1,21 @@
+jenis metode yang umum dalam pemrograman berorientasi objek yaitu:
+1.) 
+Metode Instance: Metode instance adalah metode yang bekerja pada objek tertentu dari sebuah kelas. 
+Mereka memiliki parameter self yang merujuk pada objek itu sendiri. Metode ini digunakan 
+untuk memanipulasi atribut objek atau melakukan tindakan yang spesifik untuk objek itu sendiri.
+
+2.)
+Metode Kelas (Class Method): Metode kelas adalah metode yang bekerja pada kelas itu sendiri, 
+bukan pada objek individual. Mereka didekorasi dengan @classmethod dan menerima parameter cls yang merujuk 
+pada kelas itu sendiri.Metode ini biasanya digunakan untuk membuat instance kelas alternatif 
+atau mengakses variabel kelas.
+
+3.)
+Metode Statik (Static Method): Metode statik adalah metode yang tidak menerima argumen objek atau kelas. 
+Mereka didekorasi dengan @staticmethod dan beroperasi seperti fungsi biasa yang terkait dengan kelas. 
+Metode ini sering digunakan untuk tugas-tugas yang terkait dengan kelas tetapi tidak memerlukan 
+akses ke atribut kelas atau objek.
+
+4.)Metode Penghapus (Destructor Method): Metode penghapus adalah metode khusus yang dipanggil ketika 
+sebuah objek dihapus dari memori. Ini didefinisikan dengan nama del. Metode ini dapat digunakan untuk 
+membersihkan sumber daya atau melakukan tindakan tertentu sebelum objek dihapus
